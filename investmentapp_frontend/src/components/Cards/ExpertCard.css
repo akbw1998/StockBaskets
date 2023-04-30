@@ -1,0 +1,60 @@
+.expertcard{
+   position: relative;
+   padding: 10px;
+   /* border: 1px solid red; */
+   margin: 15px;
+   border-radius: 10px;
+   box-shadow: 1px 2px 5px rgba(0,0,0,0.4);
+}
+.expertcard-header{
+   display: flex;
+   position: relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 20%;
+   background-color: rgb(241, 203, 203);
+   justify-content: space-between;
+   margin-bottom: 10px;
+   padding: 0 10px;
+}
+.header-title{
+   font-weight: bold;
+   text-decoration: underline;
+}
+.expertcard-body{
+   background-color: rgb(231, 218, 218);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.subscription-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.subscription-title{
+   text-decoration: underline;
+   font-weight: bold;
+}
+.subscription-options{
+   padding: 10px;
+}
+input[type ="radio"]{
+   cursor: pointer;
+}
+.unsubscribe-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+.expertcard-body button{
+   margin-left: 10px;
+   cursor: pointer;
+}
+.expertcard-body button:disabled{
+   margin-left: 10px;
+   cursor: default;
+}

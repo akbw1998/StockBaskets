@@ -1,0 +1,31 @@
+.profile-bar__container {
+   background-color: #eae2e2;
+   padding: 10px;
+ }
+ 
+ .profile-bar__details {
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;
+ }
+ .profile-bar__detail{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 2px 1px 3px rgba(0,0,0,0.4);
+   margin: 0 30px;
+ }
+ 
+ .profile-bar__detail > * {
+   padding: 10px;
+ }
+ 
+ .profile-bar__label {
+   font-weight: bold;
+   margin-right: 5px;
+ }
+ 
+ .profile-bar__value {
+   font-weight: normal;
+ }
+ 

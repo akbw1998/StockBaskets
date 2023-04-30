@@ -1,0 +1,105 @@
+.investory {
+   position: relative;
+   background-color: #e4e4e4;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 35px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 70vw;
+ }
+ 
+ .investory-header{
+   position: relative;
+   top:0;
+   left:0;
+   right:0;
+   background-color: #e6cdcd;
+   padding: 5px;
+   text-align: center;
+ }
+ 
+ .investory-name{
+  font-size: 24px;
+   font-weight: bold;
+ }
+ .investory .expert-name {
+   font-size: 24px;
+   font-weight: bold;
+ }
+ 
+ .investory .expert-email {
+   font-size: 16px;
+   color: #2e2828;
+   margin-top: 5px;
+ }
+ .investory-desc{
+   margin: 20px 0; 
+   text-align: center;
+ }
+ .investory-desc .desc-content{
+  font-style: italic;
+  font-size: 18px;
+ }
+
+ .investory-desc .desc-title{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+ .investory .stock-info {
+   margin-bottom: 20px;
+   text-align: center;
+   border: 1px dashed rgba(0,0,0,0.2);
+   /* display: flex;
+   justify-content: center; */
+ }
+ .investory .stock-info .stock-info-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   text-align: center;
+ }
+ 
+ .investory .stock-composition {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 10px;
+ }
+ 
+ .investory .stock-company {
+   font-size: 18px;
+   font-weight: bold;
+ }
+ 
+ .investory .stock-qty {
+   font-size: 16px;
+   color: #343434;
+ }
+ 
+ .investory .stock-price {
+   font-size: 16px;
+   color: #444242;
+ }
+ .investory-footer{
+  display: flex;
+  justify-content: space-between;
+ }
+ .investory .stats {
+   font-size: 20px;
+   font-weight: bold;
+   color: #000000;
+   text-align: center;
+   border-bottom: 1px solid rgba(0,0,0,0.2);
+ }
+ /* .investory-update-btn{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgba(123, 127, 203, 0.2);
+  cursor: pointer;
+ }
+ .investory-update-btn:hover{
+  background-color: rgba(49, 57, 209, 0.2);
+ } */
+ 

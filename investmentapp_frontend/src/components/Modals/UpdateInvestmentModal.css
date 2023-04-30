@@ -1,0 +1,64 @@
+.update-investment-modal-container{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(43, 34, 34, 0.217);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 100;
+}
+
+.update-investment-modal{
+   background-color: rgb(235, 233, 233);
+   /* min-width: 30vw;
+   min-height: 50vh; */
+   border-radius: 10px;
+}
+.update-investment-modal-header{
+   position: relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 30px;
+   padding: 10px 0;
+   background-color: rgb(222, 167, 167);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.update-investment-modal-header .close-btn{
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: rgb(212, 31, 31);
+   cursor: pointer;
+}
+.owned-shares{
+   font-size: bold;
+   margin: 5px 0;
+   font-style: italic;
+}
+.investment-value{
+   font-size: bold;
+   margin: 5px 0;
+   font-style: italic;
+}
+.amount-invested{
+   font-size: bold;
+   margin: 5px 0;
+   font-style: italic;
+}
+.share-inp{
+   margin-bottom: 5px;
+}
+.investment-amount-display{
+   font-size: bold;
+   margin: 0;
+   margin-bottom: 5px;
+   font-style: italic;
+}
+

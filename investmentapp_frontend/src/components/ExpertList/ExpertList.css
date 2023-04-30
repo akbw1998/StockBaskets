@@ -1,0 +1,7 @@
+.expertlist{
+   list-style: none;
+   max-width: 70vw;
+   max-height: 70vh;
+   margin: 20px auto;
+   overflow-y: scroll;
+}
