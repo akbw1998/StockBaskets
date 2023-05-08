@@ -258,42 +258,42 @@ The following fetch API end points are used :
 ### Snapshots of Project
 
 <h4>Home Page</h4>
-<img width="100%" alt="image" src="./images/homepage.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/homepage.png" src="./images/homepage.png" style = 'margin: 1em 0'>
 
 <h4>Register Modal</h4>
-<img width="100%" alt="image" src="./images/register-modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/register-modal.png" src="./images/register-modal.png" style = 'margin: 1em 0'>
 
 <h4>Login Modal</h4>
-<img width="100%" alt="image" src="./images/login-modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/login-modal.png" src="./images/login-modal.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Investories Tab</h4>
-<img width="100%" alt="image" src="./images/Investor_page_investories_tab.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/Investor_page_investories_tab.png" src="./images/Investor_page_investories_tab.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Experts Tab</h4>
-<img width="100%" alt="image" src="./images/investor_page_expertsList_tab.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/investor_page_expertsList_tab.png" src="./images/investor_page_expertsList_tab.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Add to Wallet Modal</h4>
-<img width="100%" alt="image" src="./images/addToWallet_modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/addToWallet_modal.png" src="./images/addToWallet_modal.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Investory</h4>
-<img width="100%" alt="image" src="./images/investory.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/investory.png" src="./images/investory.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Make Investment Modal</h4>
-<img width="100%" alt="image" src="./images/make_investment_modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/make_investment_modal.png" src="./images/make_investment_modal.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Update Investment Modal</h4>
-<img width="100%" alt="image" src="./images/update_investment_modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/update_investment_modal.png" src="./images/update_investment_modal.png" style = 'margin: 1em 0'>
 
 <h4>Expert Page - Create Investory Form</h4>
-<img width="100%" alt="image" src="./images/expert_page_create_investory_form.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/expert_page_create_investory_form.png" src="./images/expert_page_create_investory_form.png" style = 'margin: 1em 0'>
 
 <h4>Expert Page - Investory List</h4>
-<img width="100%" alt="image" src="./images/expert_page_investory_list.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/expert_page_investory_list.png" src="./images/expert_page_investory_list.png" style = 'margin: 1em 0'>
 
 <p align="right"><a href="#readme-top">(back to top)</a></p>
 
 ### Project Demo
-<video controls>
+<video controls alt = "https://github.com/akbw1998/StockBaskets/tree/main/videos">
   <source src="./videos/project_demo.mp4" type="video/mp4">
 </video>
 
