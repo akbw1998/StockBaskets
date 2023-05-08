@@ -297,7 +297,7 @@ The following fetch API end points are used :
   <source src="./videos/project_demo.mp4" type="video/mp4">
 </video>
 <p>If video too big to render, follow this link to download
-https://github.com/akbw1998/StockBaskets/blob/main/videos/project_demo.mp4
+https://github.com/akbw1998/StockBaskets/blob/main/videos/project_demo.mp4</p>
 <!-- GETTING STARTED -->
 ## Getting Started
 
