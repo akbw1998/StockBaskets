@@ -279,7 +279,7 @@ The following fetch API end points are used :
 <img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/investory.png" src="./images/investory.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Make Investment Modal</h4>
-<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/make_investment_modal.png" src="./images/make_investment_modal.png" style = 'margin: 1em 0'>
+<img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/make_Investment_modal.png" src="./images/make_investment_modal.png" style = 'margin: 1em 0'>
 
 <h4>Investor Page - Update Investment Modal</h4>
 <img width="100%" alt="https://github.com/akbw1998/StockBaskets/tree/main/images/update_investment_modal.png" src="./images/update_investment_modal.png" style = 'margin: 1em 0'>
@@ -296,7 +296,8 @@ The following fetch API end points are used :
 <video controls alt = "https://github.com/akbw1998/StockBaskets/tree/main/videos">
   <source src="./videos/project_demo.mp4" type="video/mp4">
 </video>
-
+<p>If video too big to render, follow this link to download
+https://github.com/akbw1998/StockBaskets/blob/main/videos/project_demo.mp4
 <!-- GETTING STARTED -->
 ## Getting Started
 
