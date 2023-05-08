@@ -91,7 +91,10 @@ const Investor = () => {
     setActiveTab(tabName);
   };
 
-  const closeAddToWalletModal = () => {setIsAddToWalletModalOpen(false);}
+  const closeAddToWalletModal = () => {
+    setIsAddToWalletModalOpen(false);
+    // body.style.overflow = '';
+  }
 
    return (
       <>

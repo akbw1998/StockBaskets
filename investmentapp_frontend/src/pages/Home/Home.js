@@ -24,7 +24,7 @@ const Home = () => {
     }, [navigate]);
 
    return (
-      <>
+      <div className="home-container">
       <Header/>
       <div className="overlay-container">
         <div className="overlay">
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-      </>
+      </div>
    );
 }
  

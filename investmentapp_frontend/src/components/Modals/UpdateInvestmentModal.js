@@ -11,7 +11,10 @@ const UpdateInvestmentModal = ({closeModal, currentUser, investory, investorySha
    const [shareQty, setShareQty] = useState(null);
    const [investmentAmount, setInvestmentAmount] = useState(null);
    const dispatch = useDispatch();
+   const enableScroll = () => {document.body.style.overflow = ''}
+   const disableScroll = () => {document.body.style.overflow = 'hidden'}
 
+   useEffect(()=>disableScroll(), []);
    useEffect(() => {
       console.log("--------RAN---------");
       // const unitInvestmentAmount = investory.quantifiedStocks.reduce((acc, qs) => {
@@ -23,6 +26,7 @@ const UpdateInvestmentModal = ({closeModal, currentUser, investory, investorySha
     }, [investorySharePrice]); // run only after currentUser is set
 
    const handleClose = () =>{
+      enableScroll();
       closeModal();
    }
 

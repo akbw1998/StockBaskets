@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './AddToWalletModal.css';
 import {getData, updateData} from '../../utils/fetch';
 import { useDispatch } from 'react-redux';
@@ -7,9 +7,16 @@ import { UserManagementSliceActions } from '../../store/UserManagement-slice';
 const AddToWalletModal = ({closeModal, currentUser}) => {
    const [depositAmount, setDepositAmount] = useState(null);
    const dispatch = useDispatch();
+   const enableScroll = () => {document.body.style.overflow = ''}
+   const disableScroll = () => {document.body.style.overflow = 'hidden'}
+
+   useEffect(() => disableScroll(), []);
+
    const handleClose = () =>{
+      enableScroll();
       closeModal();
    }
+
    const handleDepositChange = (event) =>{
       setDepositAmount(event.target.value);
    }
@@ -25,6 +32,7 @@ const AddToWalletModal = ({closeModal, currentUser}) => {
          const updateWalletJSON = await updateWalletResponse.json();
          if(updateWalletResponse.ok){
             alert('-----Wallet updated-----')
+
             // dispatch(UserManagementSliceActions.setCurrentUser(userJSON));
             console.log('-----Endpoint used --------');
             console.log(`http://localhost:8080/investors/${currentUser.id}`);

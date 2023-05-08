@@ -94,30 +94,30 @@ const Expert = () => {
 
    return (
       <>
-      <Header />
-      <ProfileBar>
-        <div className="profile-bar__detail">
-          <span className="profile-bar__label">Email:</span>
-          <span className="profile-bar__value">{isUserLoaded ? currentUser.email : "Loading email..."}</span>
-          <span className="profile-bar__label">Role:</span>
-          <span className="profile-bar__value">{isUserLoaded ? currentRole : "Loading role..."}</span>
+        <Header />
+        <ProfileBar>
+          <div className="profile-bar__detail">
+            <span className="profile-bar__label">Email:</span>
+            <span className="profile-bar__value">{isUserLoaded ? currentUser.email : "Loading email..."}</span>
+            <span className="profile-bar__label">Role:</span>
+            <span className="profile-bar__value">{isUserLoaded ? currentRole : "Loading role..."}</span>
+          </div>
+        </ProfileBar>
+        
+        <div className="tabs">
+          <Tab
+            tabName="Create Investory"
+            isActive={activeTab === 'Create Investory'}
+            onClick={handleTabClick}
+          />
+          <Tab
+            tabName="My Investories"
+            isActive={activeTab === 'My Investories'}
+            onClick={handleTabClick}
+          />
         </div>
-      </ProfileBar>
-      
-      <div className="tabs">
-        <Tab
-          tabName="Create Investory"
-          isActive={activeTab === 'Create Investory'}
-          onClick={handleTabClick}
-        />
-        <Tab
-          tabName="My Investories"
-          isActive={activeTab === 'My Investories'}
-          onClick={handleTabClick}
-        />
-      </div>
-      {(activeTab === 'Create Investory' && isUserLoaded) && <CreateInvestoryForm setActiveTab = {setActiveTab} currentUser = {currentUser} />}
-      {(activeTab === 'My Investories' && isUserLoaded) && <ExpertInvestoryList currentUser = {currentUser} />}
+        {(activeTab === 'Create Investory' && isUserLoaded) && <CreateInvestoryForm setActiveTab = {setActiveTab} currentUser = {currentUser} />}
+        {(activeTab === 'My Investories' && isUserLoaded) && <ExpertInvestoryList currentUser = {currentUser} />}
       </>
   );
 }

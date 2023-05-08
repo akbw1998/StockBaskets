@@ -7,14 +7,18 @@ import { useEffect } from 'react';
 const MakeInvestmentModal = ({closeModal, currentUser, investory, investorySharePrice}) => {
    const [shareQty, setShareQty] = useState(null);
    const [investmentAmount, setInvestmentAmount] = useState(null);
+   const enableScroll = () => {document.body.style.overflow = ''}
+   const disableScroll = () => {document.body.style.overflow = 'hidden'}
    const dispatch = useDispatch();
 
+   useEffect(() =>disableScroll(),[]);
+
    useEffect(() => {
-      
       setInvestmentAmount(shareQty*investorySharePrice);
     }, [investorySharePrice]); // run only after currentUser is set
 
    const handleClose = () =>{
+      enableScroll();
       closeModal();
    }
    const handleShareQtyChange = (event) =>{
