@@ -299,6 +299,7 @@ The following fetch API end points are used :
 <p>If video too big to render, follow this link to download
 https://github.com/akbw1998/StockBaskets/blob/main/videos/project_demo.mp4</p>
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Clone this repository, and and follow the instructions to install pre-requisites before running the project
